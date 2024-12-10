@@ -10,9 +10,9 @@ const Navbar = () => {
           <Image src={"/assets/logo.svg"} width={75} height={75} alt='logo'/>
         </Link>
         <div className='flex flex-row gap-5'>
-          <Link className='px-2 py-2' href={"/booking/xbox"}>Xbox</Link>
           <Link className='px-2 py-2' href={"/booking/ps5"}>Playstation 5</Link>
-          <Link className='px-2 py-2' href={"/booking/ps4"}>Playstation 4</Link>
+          <Link className='px-2 py-2' href={"/booking/xbox"}>Xbox</Link>
+          <Link className='px-2 py-2' href={"/booking/pc"}>PC</Link>
           <Link className='px-2 py-2' href={"/booking/step"}>Step Revolution</Link>
         </div>
         {/* <div className='flex flex-row gap-3'>

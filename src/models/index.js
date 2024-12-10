@@ -36,7 +36,7 @@ class EquipmentManager {
     this.equipmentList = [
       new Equipment("xbox", 'Xbox', 1),
       new Equipment("ps5", 'Playstation 5', 1),
-      new Equipment("ps4", 'Playstation 4', 1),
+      new Equipment("pc", 'PC', 1),
       new Equipment("step", 'Step Revolution', 1),
     ];
     EquipmentManager.instance = this;
